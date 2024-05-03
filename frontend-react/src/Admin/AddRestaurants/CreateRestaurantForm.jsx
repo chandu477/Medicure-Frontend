@@ -157,7 +157,7 @@ const CreateRestaurantForm = () => {
                 fullWidth
                 id="cuisineType"
                 name="cuisineType"
-                label="Cuisine Type"
+                label="Type"
                 variant="outlined"
                 onChange={formik.handleChange}
                 value={formik.values.cuisineType}
@@ -276,7 +276,7 @@ const CreateRestaurantForm = () => {
             
           </Grid>
           <Button variant="contained" color="primary" type="submit">
-            Create Restaurant
+            Create Medical
           </Button>
         </form>
       </div>

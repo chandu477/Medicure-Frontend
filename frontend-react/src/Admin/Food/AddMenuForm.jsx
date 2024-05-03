@@ -285,7 +285,7 @@ const AddMenuForm = () => {
                   <Select
                     id="seasonal"
                     name="seasonal"
-                    label="Is Seasonal"
+                    label="can be"
                     onChange={formik.handleChange}
                     value={formik.values.seasonal}
                   >

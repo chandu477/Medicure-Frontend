@@ -27,7 +27,7 @@ const menuItemReducer = (state = initialState, action) => {
         ...state,
         loading: false,
         menuItems: [...state.menuItems, action.payload],
-        message:"Food Created Successfully"
+        message:"Medicine added Successfully"
       };
     case actionTypes.GET_MENU_ITEMS_BY_RESTAURANT_ID_SUCCESS:
       return {

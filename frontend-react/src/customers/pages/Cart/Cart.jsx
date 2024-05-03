@@ -129,7 +129,7 @@ const Cart = () => {
                 <p>₹5</p>
               </div>
                 <div className="flex justify-between text-gray-400">
-                <p>GST and Restaurant Charges</p>
+                <p>GST and shop Charges</p>
                 <p>₹33</p>
               </div>
                 <Divider />
